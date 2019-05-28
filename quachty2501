@@ -1,0 +1,7 @@
+gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("1;0.33333334327;227D::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("1.5", gg.TYPE_FLOAT)
+	 gg.clearResults()
