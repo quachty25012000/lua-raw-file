@@ -19,6 +19,7 @@ if SN[4] == true then a4() end
 if SN[5] == true then a5() end
 if SN[6] == true then a6() end
 if SN[7] == true then a7() end
+if SN[8] == true then a8() end
 if SN[8] == true then Exit() end
 end
   XGCK = -1
