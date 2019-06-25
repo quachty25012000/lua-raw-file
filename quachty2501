@@ -89,7 +89,7 @@ function a7()
 gg.setRanges(32)
 gg.searchNumber("0.33333331347", 16, false, 536870912, 0, -1)
 gg.getResults(100)
-gg.editAll("-9999", 16)
+gg.editAll("999", 16)
 gg.clearResults()
 end
 
