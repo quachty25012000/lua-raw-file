@@ -1,4 +1,3 @@
-
 function Main()
   SN = gg.multiChoice({
 "彡sᴘᴇᴇᴅ ᴘᴄ",
@@ -30,18 +29,10 @@ gg.clearResults()
 gg.setRanges (32)
 gg.searchNumber('0.27777779102F;1000.0F;0.0001F;-1.0F;1.0F', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber('0.27777779102', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2, 2)
+gg.getResults(20)
 gg.editAll("0.35", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.clearResults()
-gg.setRanges (32)
-gg.searchNumber('0.27777779102F;1000.0F;0.0001F;-1.0F;1.0F', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber('0.27777779102', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2, 3)
-gg.editAll("0.38", gg.TYPE_FLOAT)
-gg.clearResults()
 end
-
 function a2()
 gg.clearResults()
 gg.setRanges(4)
@@ -70,11 +61,11 @@ gg.clearResults()
 end
 
 function a4()
-gg.setRanges(4)
-gg.searchNumber("50;100:193", 16, false, 536870912, 0, -1)
-gg.searchNumber("100", 16, false, 536870912, 0, -1)
+gg.setRanges(32)
+gg.searchNumber("150;40;2.79999995232;3.49000000954;5;30;0,5;1", 16, false, 536870912, 0, -1)
+gg.searchNumber("1", 16, false, 536870912, 0, -1)
 gg.getResults(1000)
-gg.editAll("400", 16)
+gg.editAll("-20", 16)
 gg.clearResults()
 end
 
@@ -83,7 +74,7 @@ gg.setRanges(32)
 gg.searchNumber("45F;1D;0;4.40000009537::150", 16, false, 536870912, 0, -1)
 gg.searchNumber("0", 16, false, 536870912, 0, -1)
 gg.getResults(1000)
-gg.editAll("99999", 16)
+gg.editAll("12", 16)
 gg.clearResults()
 end
 function a6()
@@ -95,16 +86,15 @@ gg.editAll("99999", 16)
 gg.clearResults()
 end
 function a7()
-gg.setRanges(4)
-gg.searchNumber("100;50;200:193", 16, false, 536870912, 0, -1)
-gg.searchNumber("200", 16, false, 536870912, 0, -1)
-gg.getResults(50)
-gg.editAll("9999999999", 16)
+gg.setRanges(32)
+gg.searchNumber("0.33333331347", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("-9999", 16)
 gg.clearResults()
 end
 
 function a8()
-gg.setRanges(4)
+gg.setRanges(32)
 gg.searchNumber("0.00999999978F;3.59999990463F; 0.27777779102F;1000.0F", 16, false, 536870912, 0, -1)
 gg.searchNumber("0.00999999978", 16, false, 536870912, 0, -1)
 gg.getResults(50)
